@@ -1,8 +1,8 @@
-
+import random
 
 print("Welcome to the guessing Game!")
 a = eval(input('Please type in a number!'))
-b = 67012
+b = random.randint(0, 1000)
 times = 0
 
 
