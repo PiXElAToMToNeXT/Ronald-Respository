@@ -1,4 +1,4 @@
-import random
+ import random
 
 print("Welcome to the guessing Game!")
 a = eval(input('Please type in a number!'))
@@ -13,6 +13,8 @@ while True:
     times = times + 1
  elif a == b:
         print("you won after ", times, " guesses.")
+ elif a == "virus":
+        print("You win!")
 
 
 
