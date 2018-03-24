@@ -4,6 +4,7 @@ print("Welcome to the guessing Game!")
 a = eval(input('Please type in a number!'))
 b = random.randint(0 ,100)
 times = 0
+jinx = "virus"
 
 while True:
 
@@ -13,8 +14,8 @@ while True:
     times = times + 1
  elif a == b:
         print("you won after ", times, " guesses.")
- elif a == "virus":
-        print("You win!")
+ elif a == jinx:
+        print("you won after 0 guesses")
 
 
 
